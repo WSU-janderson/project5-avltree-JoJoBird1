@@ -1,3 +1,9 @@
+/**
+ * Name: Jordan Wilson
+ * Project 5: AVL Tree
+ * File: AVLTree.cpp
+ */
+
 #include "AVLTree.h"
 
 #include <string>

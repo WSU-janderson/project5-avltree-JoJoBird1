@@ -1,7 +1,10 @@
-/*
-Driver code for testing your AVL Tree
-This is NOT the test code for grading,
-instead for you to get an idea of how to test the tree
+/**
+* Name: Jordan Wilson
+* Project 5: AVL Tree
+* File: AVLTreeDebug.cpp
+* Driver code for testing your AVL Tree
+* This is NOT the test code for grading,
+* instead for you to get an idea of how to test the tree
  */
 #include "AVLTree.h"
 #include <iostream>
