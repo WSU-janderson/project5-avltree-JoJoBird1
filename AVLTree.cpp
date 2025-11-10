@@ -5,8 +5,8 @@
  */
 
 #include "AVLTree.h"
-
 #include <string>
+using namespace std;
 
 size_t AVLTree::AVLNode::numChildren() const {
     return 0;
@@ -70,3 +70,53 @@ bool AVLTree::remove(AVLNode *&current, KeyType key) {
 
 void AVLTree::balanceNode(AVLNode *&node) {
 }
+
+bool AVLTree::insert(const KeyType& key, ValueType value) {
+
+}
+
+bool AVLTree::remove(const KeyType& key) {
+
+}
+
+bool AVLTree::contains(const KeyType& key) const {
+
+}
+
+optional<ValueType> AVLTree::get(const KeyType& key) const {
+
+}
+
+KeyType& AVLTree::operator[] (const ValueType& key) {
+
+}
+
+vector<KeyType> AVLTree::findRange (const KeyType& key, const KeyType& highKey) const {
+
+}
+
+vector<KeyType> AVLTree::keys() const {
+
+}
+
+ValueType AVLTree::size() const {
+
+}
+
+ValueType AVLTree::getHeight() const {
+
+}
+
+AVLTree::AVLTree(const AVLTree& other) {
+
+}
+
+void AVLTree::operator=(const AVLTree& other) {
+
+}
+
+AVLTree::~AVLTree() {
+
+}
+
+

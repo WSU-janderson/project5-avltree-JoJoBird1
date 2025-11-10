@@ -37,6 +37,15 @@ protected:
     };
 
 public:
+
+    // default constructor
+    AVLTree() : root(nullptr) {
+
+    }
+
+    // parameterized constructor???
+
+
     bool insert(const KeyType& key, ValueType value);
 
     bool remove(const KeyType& key);
